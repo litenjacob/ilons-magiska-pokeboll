@@ -1,0 +1,5 @@
+Pokemon,Vilken färg?,Typ 1,Typ 2,har den ett skal ,har den prickar,har den ben eller fötter,har den vingar ,har den en näbb,har den horn ,har den ögon,är den utvecklad,är den legendarisk ,är den av flygande typ,är den av 2 olika typer ,har den en svans ,har den stora  vassa tänder ,har den fena ,har den hovar,är den en mystisk Pokémon
+Pikachu,gul ,elektrisk,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Charmander,orange ,eld,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Squirtle,blå ,vatten,,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Bulbasaur,grön,gräs,gift,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
