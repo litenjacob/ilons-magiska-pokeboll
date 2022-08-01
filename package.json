@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/litenjacob/ilons-magiska-pokeboll/issues"
   },
-  "homepage": "https://github.com/litenjacob/ilons-magiska-pokeboll#readme"
+  "homepage": "https://github.com/litenjacob/ilons-magiska-pokeboll#readme",
+  "dependencies": {
+    "inquirer": "^9.0.2"
+  }
 }
