@@ -1,0 +1,19 @@
+{
+  "name": "ilons-magiska-pokeboll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litenjacob/ilons-magiska-pokeboll.git"
+  },
+  "author": "Ilon Waller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/litenjacob/ilons-magiska-pokeboll/issues"
+  },
+  "homepage": "https://github.com/litenjacob/ilons-magiska-pokeboll#readme"
+}
