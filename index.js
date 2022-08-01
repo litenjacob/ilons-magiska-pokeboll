@@ -41,10 +41,32 @@ const filteredQuestions = allQuestions.filter(
     1
 );
 
-const questionsToAsk = shuffle(filteredQuestions);
-console.log({ questionsToAsk });
+for (const question of shuffle(filteredQuestions)) {
+  const answer = (
+    await prompt({
+      type: 'confirm',
+      name: question,
+      message: question,
+    })
+  )[question];
 
-// console.log('hello', { allQuestions, questions, filteredQuestions, pokemons });
+  for (const pokemon in pokemons) {
+    if ((pokemons[pokemon][question] || false) !== answer) {
+      delete pokemons[pokemon];
+    }
+  }
+
+  const pokemonNamesLeft = Object.keys(pokemons);
+  if (pokemonNamesLeft.length === 1) {
+    console.log(`Då vet jag – det är ${pokemonNamesLeft[0]}!`);
+
+    process.exit(0);
+  } else if (pokemonNamesLeft.length === 0) {
+    console.log('Åhnej, då vet jag inte!');
+
+    process.exit(1);
+  }
+}
 
 function shuffle(arr) {
   let i = arr.length;
