@@ -1,4 +1,7 @@
-const fs = require('fs');
+import inquirer from 'inquirer';
+import fs from 'fs';
+
+const prompt = inquirer.createPromptModule();
 const csv = fs.readFileSync('./pokemons.csv', 'utf8').split('\n');
 const questions = csv.shift().split(',').slice(1);
 const pokemons = Object.fromEntries(
